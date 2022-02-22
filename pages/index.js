@@ -5,6 +5,7 @@ function Home() {
 
   const Router = useRouter()
 
+  // 7) Programmatic Navigation
   const handleEvent = () => {
     Router.push('/product')
   }
@@ -12,6 +13,7 @@ function Home() {
   return(
     <>
     <h1>Home</h1>
+    {/* 6) Link Component */}
     <Link href='/blog'>
       <a>blog</a>
     </Link>

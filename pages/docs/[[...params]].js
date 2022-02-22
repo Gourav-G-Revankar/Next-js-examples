@@ -1,3 +1,5 @@
+// 5) Catch All Routes
+
 import {useRouter} from 'next/router'
 
 function Doc() {

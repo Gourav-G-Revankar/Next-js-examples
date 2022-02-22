@@ -1,3 +1,5 @@
+// 3) Dynamic Routes
+
 import Link from 'next/link'
 
 function Product( {productId = 100} ) {
